@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/Home'
 import Login from './components/pages/Login'
+import LandingPage from './components/views/LandingPage'
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       </center>
      <Home/>
      <Login/>
-
+    <LandingPage name="Markiv"/>
     </>
   )
 }
